@@ -11,7 +11,7 @@
 
 [Gapminder Foundation](https://www.gapminder.org/data/)，資料分為：
 - `datapoints`：隨時間變化的數值（人均GDP、預期壽命、人口）
-- `entities`：固定不變的屬性（國家名稱、所屬洲別）
+- `entities`：固定不變的屬性（國家名稱、所屬洲別） 
 
 ## 資料需求對照
 
