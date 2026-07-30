@@ -1,0 +1,9 @@
+# VS Code 個人設定
+.vscode/
+
+# Python 相關
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
