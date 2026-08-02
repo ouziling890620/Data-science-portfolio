@@ -3,9 +3,12 @@
 ## 簡介
 
 本專題復刻了 Hans Rosling 經典的資料視覺化作品
-[200 Countries, 200 Years, 4 Minutes](https://youtu.be/jbkSRLYSojo?si=5WkjOoiU_IPuKGsR)。
-使用 `pandas` 與 `sqlite3` 建立資料庫，以 `matplotlib` 進行概念驗證，
-最後用 `plotly.express` 產出可互動的動畫散佈圖。
+[200 Countries, 200 Years, 4 Minutes](https://youtu.be/jbkSRLYSojo?si=5WkjOoiU_IPuKGsR)，
+呈現兩百年間，各國人均GDP與預期壽命如何隨時間演變。
+
+透過這個專題，使用 `pandas` 與 `sqlite3` ，練習了從原始 CSV 資料建立 SQLite 資料庫、
+以 SQL JOIN 整併多張資料表，並比較 `matplotlib`（靜態驗證）
+與 `plotly.express`（互動式成品）在資料視覺化上的差異與應用時機。
 
 ## 資料來源
 
@@ -55,4 +58,4 @@ conda env create -f environment.yml`
 
 ## 快速連結
 
-- [互動式成品（gapminder_clone.html）](./gapminder_clone.html)
+- [互動式瀏覽](https://ouziling890620.github.io/Data-science-portfolio/data-analysis/01-gapminder_clone/gapminder_clone.html)
