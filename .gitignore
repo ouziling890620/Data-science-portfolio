@@ -1,9 +1,15 @@
-# VS Code 個人設定
+# VS Code 開發環境個人設定
 .vscode/
 
-# Python 相關
+# Python 執行產生的暫存檔案
 __pycache__/
 *.pyc
 
-# Jupyter Notebook checkpoint
+# Jupyter Notebook checkpoint暫存檔案
 .ipynb_checkpoints/
+
+
+# 資料分析專題七：排除大型原始資料檔案（可從 Kaggle/官方來源重新下載）
+data-analysis/**/data/*.csv
+data-analysis/**/data/*.pdf
+data-analysis/**/data/*.db
