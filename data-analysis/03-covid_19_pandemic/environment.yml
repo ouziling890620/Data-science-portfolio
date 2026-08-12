@@ -1,0 +1,11 @@
+name: gapminder_clone
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas=3.0
+  - matplotlib=3.11
+  - plotly=6.7
+  - openpyxl=3.1
+  - pip:
+    - gradio==6.22

@@ -9,7 +9,19 @@ __pycache__/
 .ipynb_checkpoints/
 
 
-# 資料分析專題七：排除大型原始資料檔案（可從 Kaggle/官方來源重新下載）
+# 大疫世代專題三：排除原始 CSV、概念驗證檔案（不放上GitHub展示）
+# 注意：covid_19.db 不排除，因為部署到 Railway 時需要這個資料庫檔案
+data-analysis/05-covid_19_pandemic/proof_of_concept_map.py
+data-analysis/05-covid_19_pandemic/proof_of_concept_line.py
+data-analysis/05-covid_19_pandemic/data/*.csv
+
+# 排除專題六（找出章魚里）data資料夾下的原始 Excel 檔案（可從中選會重新下載）
+data-analysis/06-taiwan_presidential_election_2024/data/*.xlsx
+
+# 排除專題七：資料科學家的工具箱
+data-analysis/07-data_scientists_toolbox/data/*.csv
+data-analysis/07-data_scientists_toolbox/data/*.pdf
+
 data-analysis/**/data/*.csv
 data-analysis/**/data/*.pdf
 data-analysis/**/data/*.db
