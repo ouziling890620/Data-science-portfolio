@@ -12,6 +12,10 @@
    練習文字檔解析、SQLite 資料庫建立、matplotlib/basemap 地圖繪製<br>
    👉 [成品圖片](https://github.com/ouziling890620/Data-science-portfolio/blob/main/data-analysis/02-minard_clone/minard_clone.png)
 
+3. [大疫世代](./05-covid_19_pandemic) - 使用CSSE at Johns Hopkins資料，
+   建立含地理地圖與時間序列的Covid-19疫情儀表板<br>
+   👉 [線上互動瀏覽（Railway部署）](https://covid-19-dashboard-production.up.railway.app)
+
 6. [找出章魚里](./06-taiwan_presidential_election_2024) - 以餘弦相似度分析 2024 總統大選村里得票結構，
    練習正規化資料庫設計、向量相似度計算、gradio 互動介面<br>
    👉 [gradio 查詢介面程式碼](https://github.com/ouziling890620/Data-science-portfolio/blob/main/data-analysis/06-taiwan_presidential_election_2024/app.py)

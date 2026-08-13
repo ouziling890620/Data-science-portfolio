@@ -40,3 +40,4 @@ python app.py   # 前往 http://127.0.0.1:7860 瀏覽成品
 
 - [建立資料庫程式碼](./create_covid_19_db.py)
 - [gradio 儀表板程式碼](./app.py)
+- [線上互動瀏覽（Railway部署）](https://covid-19-dashboard-production.up.railway.app)

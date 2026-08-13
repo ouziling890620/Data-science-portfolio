@@ -9,7 +9,7 @@ __pycache__/
 .ipynb_checkpoints/
 
 
-# 大疫世代專題三：排除原始 CSV、概念驗證檔案（不放上GitHub展示）
+# 排除專題三大疫世代：原始 CSV、概念驗證檔案（不放上GitHub展示）
 # 注意：covid_19.db 不排除，因為部署到 Railway 時需要這個資料庫檔案
 data-analysis/03-covid_19_pandemic/proof_of_concept_map.py
 data-analysis/03-covid_19_pandemic/proof_of_concept_line.py
