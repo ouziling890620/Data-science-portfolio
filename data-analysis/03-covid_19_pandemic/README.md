@@ -9,6 +9,7 @@
 
 透過這個專題，練習了處理寬轉長格式的時間序列資料、建立SQLite資料庫，
 並以 `gradio` 建立含地理散佈地圖與互動篩選折線圖的儀表板。
+並將成品部署至 [Railway](https://railway.app)，產生可公開瀏覽的線上網址。
 
 ## 資料來源
 
@@ -30,7 +31,7 @@ python app.py   # 前往 http://127.0.0.1:7860 瀏覽成品
 
 ## 檔案結構
 ```
-05-covid_19_pandemic/
+03-covid_19_pandemic/
 ├── data/ # 原始 CSV 與 covid_19.db
 ├── create_covid_19_db.py # 建立資料庫
 └── app.py # gradio 疫情儀表板
