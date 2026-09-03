@@ -5,7 +5,7 @@
 
 ## 分類
 - [資料分析 Data Analysis](./data-analysis) - 探索性資料分析、視覺化相關專題
-- [醫學資訊機器學習 Healthcare ML](./healthcare-machine-learning) - 心臟病預測、
+- [醫學資訊機器學習 Medical ML](./medical-machine-learning) - 心臟病預測、
   胸部X光影像分類等醫學應用相關專題
 - [機器學習 Machine Learning](./machine-learning) - 分類、預測模型基礎練習
 

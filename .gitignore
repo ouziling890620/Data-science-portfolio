@@ -23,7 +23,3 @@ data-analysis/06-taiwan_presidential_election_2024/data/*.xlsx
 data-analysis/07-data_scientists_toolbox/data/*.csv
 data-analysis/07-data_scientists_toolbox/data/*.pdf
 data-analysis/07-data_scientists_toolbox/data/kaggle_survey.db
-
-# data-analysis/**/data/*.csv
-# data-analysis/**/data/*.pdf
-# data-analysis/**/data/*.db
