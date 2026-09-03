@@ -46,7 +46,7 @@ def filter_global_map(country_names):
 
     # 泡泡大小與顏色皆對應確診數
     fig = go.Figure(
-        go.Scattermapbox(
+        go.Scattermap(
             lat=filtered_daily_report["latitude"],
             lon=filtered_daily_report["longitude"],
             customdata=information_when_hovered,   # 綁定每個點對應的懸停資訊
@@ -65,10 +65,10 @@ def filter_global_map(country_names):
 
     # 底圖樣式與初始置中位置（台灣）
     fig.update_layout(
-        mapbox_style="open-street-map",
-        mapbox=dict(
+        map_style="open-street-map",
+        map=dict(
             zoom=2,
-            center=go.layout.mapbox.Center(lat=23.7, lon=121.0)  # 改成台灣座標
+            center=go.layout.map.Center(lat=23.7, lon=121.0)  # 改成台灣座標
         )
     )
     return fig
