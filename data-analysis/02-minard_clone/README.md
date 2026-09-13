@@ -10,6 +10,20 @@
 依欄位性質拆分資料表，並使用 `pandas` 與 `sqlite3` 建立資料庫，
 搭配 `matplotlib` 與 `basemap` 疊加多層地圖圖層，重現這幅歷史名作的視覺效果。
 
+## 資料來源
+
+採用 [The Grammar of Graphics](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html)
+網站提供的[文字檔](https://www.datavis.ca/gallery/minard/minard.txt)。
+
+| 視覺元素 | 對應資料 |
+|---|---|
+| X 軸 | 經度 |
+| Y 軸 | 緯度 |
+| 顏色 | 進攻/撤退 |
+| 粗細 | 軍隊人數 |
+| 時間軸 | 資料日期 |
+| 折線 | 氣溫 |
+
 
 ## 如何重現
 - 安裝 `Miniconda`
@@ -25,11 +39,11 @@
 ## 檔案結構
 ```
 02-minard_clone/
-├── data/ # 原始文字檔與 minard.db
-├── create_minard_db.py # 解析文字檔並建立資料庫
-├── proof_of_concept.py # matplotlib 概念驗證（四張圖分開繪製）
-├── plot_with_basemap.py # 合併四圖，產出最終成品
-└── minard_clone.png # 最終成品
+├── data/                 # 原始文字檔與 minard.db
+├── create_minard_db.py   # 解析文字檔並建立資料庫
+├── proof_of_concept.py   # matplotlib 概念驗證（四張圖分開繪製）
+├── plot_with_basemap.py  # 合併四圖，產出最終成品
+└── minard_clone.png      # 最終成品
 ```
 
 ## 快速連結

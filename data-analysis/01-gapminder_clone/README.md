@@ -16,17 +16,6 @@
 - `datapoints`：隨時間變化的數值（人均GDP、預期壽命、人口）
 - `entities`：固定不變的屬性（國家名稱、所屬洲別） 
 
-## 資料需求對照
-
-| 視覺元素 | 對應資料 |
-|---|---|
-| X 軸 | 人均 GDP |
-| Y 軸 | 預期壽命 |
-| 顏色 | 洲別 |
-| 大小 | 人口數 |
-| 時間軸 | 年份 |
-
-
 ## 流程
 
 1. **建立資料庫**：讀取四份 Gapminder 原始資料（人均GDP、預期壽命、人口、地理資訊），存入 SQLite 資料庫，並以 SQL JOIN 建立整合檢視表 `plotting`
@@ -59,3 +48,13 @@ conda env create -f environment.yml`
 ## 快速連結
 
 - [互動式瀏覽](https://ouziling890620.github.io/Data-science-portfolio/data-analysis/01-gapminder_clone/gapminder_clone.html)
+
+## 資料需求對照
+
+| 視覺元素 | 對應資料 |
+|---|---|
+| X 軸 | 人均 GDP |
+| Y 軸 | 預期壽命 |
+| 顏色 | 洲別 |
+| 大小 | 人口數 |
+| 時間軸 | 年份 |
