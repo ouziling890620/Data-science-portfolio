@@ -12,4 +12,4 @@
 
 ## 使用技術
 
-Python, pandas, scikit-learn, seaborn, matplotlib, plotly, gradio, SQLite
+Python, pandas, scikit-learn, seaborn, matplotlib, plotly, gradio, SQLite, TensorFlow, Keras, fastai

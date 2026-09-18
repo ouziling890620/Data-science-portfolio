@@ -38,11 +38,11 @@ conda env create -f environment.yml`
 ## 檔案結構
 ```
 01-gapminder_clone/
-├── data/ # 原始 CSV 與 gapminder.db
-├── create_gapminder_db.py # 建立資料庫與檢視表
-├── proof_of_concept.py # matplotlib 概念驗證
-├── plot_with_px.py # plotly.express 產出成品
-└── gapminder_clone.html # 最終互動式成品
+├── data/                   # 原始 CSV 與 gapminder.db
+├── create_gapminder_db.py  # 建立資料庫與檢視表
+├── proof_of_concept.py     # matplotlib 概念驗證
+├── plot_with_px.py         # plotly.express 產出成品
+└── gapminder_clone.html    # 最終互動式成品
 ```
 
 ## 快速連結
