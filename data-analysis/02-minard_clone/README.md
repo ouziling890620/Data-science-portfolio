@@ -15,26 +15,21 @@
 採用 [The Grammar of Graphics](https://www.cs.uic.edu/~wilkinson/TheGrammarOfGraphics/GOG.html)
 網站提供的[文字檔](https://www.datavis.ca/gallery/minard/minard.txt)。
 
-| 視覺元素 | 對應資料 |
-|---|---|
-| X 軸 | 經度 |
-| Y 軸 | 緯度 |
-| 顏色 | 進攻/撤退 |
-| 粗細 | 軍隊人數 |
-| 時間軸 | 資料日期 |
-| 折線 | 氣溫 |
+## 流程
 
+1. **建立資料庫**：手動解析固定寬度文字檔，依欄位性質拆分成城市、氣溫、軍隊三張資料表，存入 SQLite
+2. **概念驗證**：分別用 matplotlib 繪製地圖、城市、氣溫、軍隊四張圖，確認各圖層邏輯正確
+3. **產出成品**：用 matplotlib 與 basemap 疊加四個圖層，重現完整的複合式視覺化
 
 ## 如何重現
-- 安裝 `Miniconda`
-- 依據 `environment.yml` 建立環境：
+
+原始文字檔 `minard.txt` 需事先置於 `data/` 資料夾。
+
 ```bash
-  conda env create -f environment.yml
+conda env create -f environment.yml
+python create_minard_db.py       # 建立 minard.db
+python plot_with_basemap.py      # 產出 minard_clone.png
 ```
-- 將 `data/` 資料夾中的 `minard.txt` 置放於工作目錄中的 `data/` 資料夾
-- 啟動環境並執行 `python create_minard_db.py`，會在 `data/` 資料夾中建立 `minard.db`
-- 啟動環境並執行 `python plot_with_basemap.py`，會生成 `minard_clone.png`
-![minard_clone](minard_clone.png)
 
 ## 檔案結構
 ```
@@ -48,7 +43,8 @@
 
 ## 快速連結
 
-- [成品圖片](./minard_clone.png)
+- [成品圖片-行軍地圖](./minard_clone.png)
+![minard_clone](minard_clone.png)
 
 ## 資料需求對照
 

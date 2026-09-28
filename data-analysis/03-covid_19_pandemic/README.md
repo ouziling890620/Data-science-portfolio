@@ -27,7 +27,7 @@ python create_covid_19_db.py    # 建立 covid_19.db
 python app.py                   # 前往 http://127.0.0.1:7860 瀏覽成品
 ```
 
-4個原始CSV需事先置於 `data/` 資料夾。
+四個原始CSV需事先置於 `data/` 資料夾。
 
 ## 檔案結構
 ```
@@ -39,6 +39,5 @@ python app.py                   # 前往 http://127.0.0.1:7860 瀏覽成品
 
 ## 快速連結
 
-- [建立資料庫程式碼](./create_covid_19_db.py)
 - [gradio 儀表板程式碼](./app.py)
-- [線上互動瀏覽（Hugging Face Spaces部署）](https://huggingface.co/spaces/ouziling890620/covid_19)
+- [線上互動瀏覽-gradio 儀表板（Hugging Face Spaces部署）](https://huggingface.co/spaces/ouziling890620/covid_19)

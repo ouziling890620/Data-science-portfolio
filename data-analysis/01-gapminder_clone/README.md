@@ -24,16 +24,13 @@
 
 ## 如何重現
 
-- 安裝 `Miniconda`
-- 依據 `environment.yml` 建立環境： 
-
 ```bash
-conda env create -f environment.yml`
+conda env create -f environment.yml
+python create_gapminder_db.py   # 建立 gapminder.db
+python plot_with_px.py          # 產出 gapminder_clone.html
 ```
 
-- 將 `data/` 資料夾中的四個 CSV 檔案置放於工作目錄中的 `data/` 資料夾。
-- 啟動環境並執行 `python create_gapminder_db.py` 就能在 `data/` 資料夾中建立 `gapminder.db`
-- 啟動環境並執行 `python plot_with_px.py` 就能生成 `gapminder_clone.html`
+四份原始CSV需事先置於 `data/` 資料夾。
 
 ## 檔案結構
 ```
@@ -47,7 +44,7 @@ conda env create -f environment.yml`
 
 ## 快速連結
 
-- [互動式瀏覽](https://ouziling890620.github.io/Data-science-portfolio/data-analysis/01-gapminder_clone/gapminder_clone.html)
+- [互動式瀏覽-動態泡泡圖](https://ouziling890620.github.io/Data-science-portfolio/data-analysis/01-gapminder_clone/gapminder_clone.html)
 
 ## 資料需求對照
 
