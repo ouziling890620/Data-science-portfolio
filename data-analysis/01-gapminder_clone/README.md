@@ -44,7 +44,8 @@ python plot_with_px.py          # 產出 gapminder_clone.html
 
 ## 快速連結
 
-- [互動式瀏覽-動態泡泡圖](https://ouziling890620.github.io/Data-science-portfolio/data-analysis/01-gapminder_clone/gapminder_clone.html)
+- [互動式瀏覽-動態泡泡圖](https://ouziling890620.github.io/Data-science-portfolio/data-analysis/01-gapminder_clone/gapminder_clone.html) </br>
+（因包含完整動畫資料，檔案較大，首次載入可能需要數秒至十幾秒）
 
 ## 資料需求對照
 
