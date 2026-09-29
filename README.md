@@ -7,5 +7,4 @@
 - [資料分析 Data Analysis](./data-analysis) - 資料庫建置與資料視覺化專題
 - [醫學資訊機器學習 Medical ML](./medical-machine-learning) - 心臟病預測、
   ECG 心律不整辨識、肺炎 X 光影像辨識、敗血症預測
-- [機器學習 Machine Learning](./machine-learning) - 分類、預測模型基礎練習
 
