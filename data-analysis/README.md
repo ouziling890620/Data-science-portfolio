@@ -17,4 +17,4 @@
 3. [大疫世代](./03-covid_19_pandemic) - 使用CSSE at Johns Hopkins資料，
    建立含地理地圖與時間序列的Covid-19疫情儀表板<br>
    👉 [線上互動瀏覽（Hugging Face Spaces部署）](https://huggingface.co/spaces/ouziling890620/covid_19)</br>
-   （免費方案，若閒置一段時間未被訪問，首次載入可能需等待約1分鐘喚醒服務）
+   （部署於免費方案，偶爾可能因服務不穩定而未能正常顯示，重新整理頁面通常可解決。）
