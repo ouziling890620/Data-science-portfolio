@@ -41,4 +41,4 @@ python app.py                   # 前往 http://127.0.0.1:7860 瀏覽成品
 
 - [gradio 儀表板程式碼](./app.py)
 - [線上互動瀏覽-gradio 儀表板（Hugging Face Spaces部署）](https://huggingface.co/spaces/ouziling890620/covid_19)</br>
-（免費方案，若閒置一段時間未被訪問，首次載入可能需等待約1分鐘喚醒服務）
+（部署於免費方案，偶爾可能因服務不穩定而未能正常顯示，重新整理頁面通常可解決。）
