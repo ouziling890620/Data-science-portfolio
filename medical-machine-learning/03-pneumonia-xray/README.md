@@ -2,7 +2,7 @@
 
 ## 專題說明
 使用胸部 X 光影像辨識正常與肺炎兩種類別，分別以自建 CNN 與 ResNet50 遷移學習實作，比較兩種方法的差異。</br>
-作為呼吸治療師，本專題結合臨床背景對模型結果進行專業詮釋。
+作為呼吸治療師，本專題結合臨床背景對模型結果進行詮釋。
 
 ## 資料集
 - 來源：[Kaggle Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
